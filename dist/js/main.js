@@ -19,18 +19,18 @@ var j;
 for (j = 0; j<span.length; j++) {
     span[j].onclick = function(){
         modal.style.display = "none";
-        document.body.style.overflow = 'unset';
+        document.body.style.overflow = 'auto';
         };
 };
 span.onclick = function(){
     modal.style.display = "none";
-    document.body.style.overflow = 'unset';
+    document.body.style.overflow = 'auto';
 };
 
 window.onclick = function(e) {
     if (e.target == modal) {
         modal.style.display = "none";
-        document.body.style.overflow = 'unset';
+        document.body.style.overflow = 'auto';
     }
 }
 

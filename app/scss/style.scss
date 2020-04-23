@@ -73,6 +73,7 @@ body{
     text-align: center;
 }
 .main__box-description{
+    width: 100%;
     line-height: 28px;
     color: $dark-blue;
     text-align: center;
@@ -182,6 +183,7 @@ body{
 }
 .radio{
     display: block;
+    width: 20%;
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
@@ -193,10 +195,10 @@ body{
 }
 .radio__input{
     position: absolute;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
 }
 .radio__box{
     position: absolute;
@@ -280,6 +282,7 @@ body{
 
 .check{
     display: block;
+    width: 70%;
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
@@ -291,10 +294,10 @@ body{
 }
 .check__input{
     position: absolute;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
 }
 .check__box{
     position: absolute;
