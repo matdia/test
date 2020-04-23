@@ -46,7 +46,7 @@ body{
     line-height: 52px;
     margin-bottom: 24px;
 }
-.content__box{
+.main__box{
     width: 100%;
     padding: 27px 64px 32px;
     background-color: $white;
@@ -57,7 +57,7 @@ body{
     align-items: center;
     margin-bottom: 50px;
 }
-.content__box-img{
+.main__box-img{
     width: 464px;
     margin-bottom: 32px;
     img{
@@ -65,20 +65,20 @@ body{
         height: auto;
     }
 }
-.content__box-title{
+.main__box-title{
     font-weight: 600;
     font-size: 26px;
     line-height: 36px;
     margin-bottom: 24px;
     text-align: center;
 }
-.content__box-description{
+.main__box-description{
     line-height: 28px;
     color: $dark-blue;
     text-align: center;
     margin-bottom: 40px;
 }
-.content__box-button{
+.main__box-button{
     display: flex;
     align-items: center;
     padding: 15px 16px;
@@ -153,9 +153,6 @@ body{
     height: 14px;
     cursor: pointer;
     background-image: url(../img/icon/main-close.svg);
-    // &::before{
-    //     vertical-align: sub;
-    // }
 }
 .form__data-subtitle{
     font-size: 18px;
@@ -385,20 +382,20 @@ body{
         line-height: 26px;
         margin-bottom: 16px;
     }
-    .content__box{
+    .main__box{
         padding: 44px 13px 28px;
         margin-bottom: unset;
     }
-    .content__box-img{
+    .main__box-img{
         width: 100%;
         margin-bottom: 33px;
     }
-    .content__box-title{
+    .main__box-title{
         font-size: 22px;
         line-height: 32px;
         margin-bottom: 16px;
     }
-    .content__box-description{
+    .main__box-description{
         font-size: 14px;
         line-height: 20px;
         max-width: 343px;

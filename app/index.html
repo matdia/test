@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+<body>
+    <main>
+        <section class="main">
+            <div class="wrapper">
+                <h2 class="main__title">Информация о пациентах</h2>
+                <div class="main__box">
+                    <div class="main__box-img">
+                        <img src="img/girl.svg" alt="Girl">
+                    </div>
+                    <p class="main__box-title">Заполните свой профиль и получите 100 баллов</p>
+                    <p class="main__box-description">
+                        Заполните базовую информацию о себе, чтобы мы могли подбирать для вас интересные акции и статьи. 
+                        Информация о пациенте используется только для автозаполнения формы записи и не видна другим пользователям.
+                    </p>
+                    
+                    <a href="#!" class="main__box-button modal__form__link">
+                        <div class="button-text">Перейти к заполнению</div>
+                        <div class="button-coin">
+                            <i class="coin"></i>
+                            +100
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="modal__wrapper" id="modal__form">
+        <div class="modal__content">
+            <form action="#" class="form">                
+                <div class="form__data__header"> 
+                    <h3 class="form__data__title">Личные данные</h3>
+                    <i class="close-main"></i>
+                </div>
+                <div class="form__data__wrap">
+                    <p class="form__data-subtitle">Факторы риска</p>
+                    <div class="form__description-box">
+                        Эта информация поможет разработать для вас индивидуальный план регулярных обследований, 
+                        подбирать акции и полезные статьи
+                    </div>
+                    <div class="form__radio-wrap">
+                        <p class="main__label">Курение</p>
+                        <label class="radio">
+                            <input type="radio" name="smoking" class="radio__input" value="No">
+                            <span class="radio__box"></span>
+                            Не курю
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="smoking" class="radio__input" value="Yes">
+                            <span class="radio__box"></span>
+                            Курю
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="smoking" class="radio__input" value="quit">
+                            <span class="radio__box"></span>
+                            Бросил(а)
+                        </label>
+                    </div>
+                    <div class="form__input-wrap">
+                        <p class="main__label">Хронические заболевания</p>
+                        <input type="text" class="text__input" placeholder="Начните вводить название">
+                        <div class="options__wrap">
+                            <div class="option">
+                                <p class="option-name">Аллергия на анальгин</p>
+                                <i class="fas fa-times close-option"></i>
+                            </div>
+                            <div class="option">
+                                <p class="option-name">Миопия</p>
+                                <i class="fas fa-times close-option"></i>
+                            </div>
+                            <div class="option">
+                                <p class="option-name">Аллергия на анальгин</p>
+                                <i class="fas fa-times close-option"></i>
+                            </div>
+                            <div class="option">
+                                <p class="option-name">Миопия</p>
+                                <i class="fas fa-times close-option"></i>
+                            </div>
+                            <div class="option">
+                                <p class="option-name">Аллергия на анальгин</p>
+                                <i class="fas fa-times close-option"></i>
+                            </div>
+                            <div class="option">
+                                <p class="option-name">Гайморит</p>
+                                <i class="fas fa-times close-option"></i>
+                            </div>
+                            <div class="option">
+                                <p class="option-name">Аллергия на анальгин</p>
+                                <i class="fas fa-times close-option"></i>
+                            </div>
+                            <div class="option">
+                                <p class="option-name">Миопия</p>
+                                <i class="fas fa-times close-option"></i>
+                            </div>
+                            <div class="option">
+                                <p class="option-name">Аллергия на анальгин</p>
+                                <i class="fas fa-times close-option"></i>
+                            </div>
+                            <div class="option">
+                                <p class="option-name">Миопия</p>
+                                <i class="fas fa-times close-option"></i>
+                            </div>
+                            <div class="option">
+                                <p class="option-name">Депрессия</p>
+                                <i class="fas fa-times close-option"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__check-wrap">
+                        <p class="form__check__title">Наследственность</p>
+                        <p class="form__check__subtitle">Какие из этих болезней были у ваших ближайших родственников (родителей, братьев, 
+                            сестёр, бабушек, дедушек)? Это может влиять на вашу предрасположенность 
+                        </p>
+                        <div class="checkbox__wrap">
+                            <div class="checkbox__item">
+                                <p class="main__label">Мужчины</p>
+                                <label class="check">
+                                    <input type="checkbox" name="heredity-man" class="check__input" value="diabetes">
+                                    <span class="check__box"></span>
+                                    Диабет
+                                </label>
+                                <label class="check">
+                                    <input type="checkbox" name="heredity-man" class="check__input" value="hypertension">
+                                    <span class="check__box"></span>
+                                    Гипертония
+                                </label>
+                                <label class="check">
+                                    <input type="checkbox" name="heredity-man" class="check__input" value="prostate-cancer">
+                                    <span class="check__box"></span>
+                                    Рак простаты
+                                </label>
+                                <label class="check">
+                                    <input type="checkbox" name="heredity-man" class="check__input" value="colon-cancer">
+                                    <span class="check__box"></span>
+                                    Рак толстого кишечника
+                                </label>
+                                <label class="check">
+                                    <input type="checkbox" name="heredity-man" class="check__input" value="skin-melanoma">
+                                    <span class="check__box"></span>
+                                    Меланома кожи
+                                </label>
+                            </div>
+                            <div class="checkbox__item">
+                                <p class="main__label">Женщины</p>
+                                <label class="check">
+                                    <input type="checkbox" name="heredity-woman" class="check__input" value="diabetes">
+                                    <span class="check__box"></span>
+                                    Диабет
+                                </label>
+                                <label class="check">
+                                    <input type="checkbox" name="heredity-woman" class="check__input" value="hypertension">
+                                    <span class="check__box"></span>
+                                    Гипертония
+                                </label>
+                                <label class="check">
+                                    <input type="checkbox" name="heredity-woman" class="check__input" value="prostate-cancer">
+                                    <span class="check__box"></span>
+                                    Рак простаты
+                                </label>
+                                <label class="check">
+                                    <input type="checkbox" name="heredity-woman" class="check__input" value="colon-cancer">
+                                    <span class="check__box"></span>
+                                    Рак толстого кишечника
+                                </label>
+                                <label class="check">
+                                    <input type="checkbox" name="heredity-woman" class="check__input" value="skin-melanoma">
+                                    <span class="check__box"></span>
+                                    Меланома кожи
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__button__wrap">
+                    <button class="form__button">Добавить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/6e77c50a0c.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
